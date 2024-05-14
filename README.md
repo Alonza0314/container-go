@@ -30,7 +30,7 @@ Like:
 
 ```go
     container := NewContainer()
-    container.Push(0314)
+    container.Push(314)
     container.Push("Alonza")
     container.Push(true)
 ```
