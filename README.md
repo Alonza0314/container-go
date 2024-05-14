@@ -15,6 +15,7 @@ Here include these containers
 |Type|How to import|Propoties|
 |-|-|-|
 |Stack|"github.com/Alonza0314/Container-Go/Stack"|Last In, First Out|
+|Queue|"github.com/Alonza0314/Container-Go/Queue"|First In, First Out|
 
 ## Use Containers
 
