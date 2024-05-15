@@ -16,6 +16,7 @@ Here include these containers
 |-|-|-|
 |Stack|"github.com/Alonza0314/Container-Go/Stack"|Last In, First Out|
 |Queue|"github.com/Alonza0314/Container-Go/Queue"|First In, First Out|
+|Heap|"github.com/Alonza0314/Container-Go/Heap"|Priority Queue|
 
 ## Use Containers
 
@@ -34,6 +35,8 @@ Like:
     container.Push("Alonza")
     container.Push(true)
 ```
+
+But be careful that the container-Heap, which can only store one data type since you need to specify the compare function to define which kind of heap you will use (i.e. minHeap or maxHeap).
 
 ---
 
