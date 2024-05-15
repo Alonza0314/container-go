@@ -32,7 +32,7 @@
     queue.Push(item)
     ```
 
-6. Pop(): it will pop one item from the front of the queue, and also return this item and the error message id necessary.
+6. Pop(): it will pop one item from the front of the queue, and also return this item and the error message if necessary.
 
     ```go
     frontItem, err := queue.Pop()
