@@ -5,7 +5,6 @@ import (
 )
 
 func TestStack(t *testing.T) {
-	// create a new stack
 	stack := NewStack()
 
 	// test for getting empty stack's length
