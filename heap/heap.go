@@ -1,4 +1,4 @@
-package Heap
+package heap
 
 import (
 	"errors"
@@ -35,7 +35,7 @@ func (h *heap) swap(x, y int) {
 
 func (h *heap) Top() (interface{}, error) {
 	if h.IsEmpty() {
-		return nil, errors.New("Heap is empty.")
+		return nil, errors.New("heap is empty")
 	}
 	return h.Storage[1], nil
 }

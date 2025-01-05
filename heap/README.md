@@ -1,4 +1,4 @@
-# Heap
+# heap
 
 ## How to use
 

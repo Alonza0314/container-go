@@ -1,4 +1,4 @@
-# Set
+# set
 
 ## How to use
 

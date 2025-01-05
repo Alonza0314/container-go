@@ -1,4 +1,4 @@
-package Queue
+package queue
 
 import (
 	"errors"
@@ -21,7 +21,7 @@ func (q *queue) IsEmpty() bool {
 
 func (q *queue) Front() (interface{}, error) {
 	if q.IsEmpty() {
-		return nil, errors.New("Queue is empty.")
+		return nil, errors.New("queue is empty")
 	}
 	return (*q)[0], nil
 }
@@ -32,7 +32,7 @@ func (q *queue) Push(item interface{}) {
 
 func (q *queue) Pop() (interface{}, error) {
 	if q.IsEmpty() {
-		return nil, errors.New("Queue is empty.")
+		return nil, errors.New("queue is empty")
 	}
 	front := (*q)[0]
 	(*q) = (*q)[1:]

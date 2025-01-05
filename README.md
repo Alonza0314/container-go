@@ -1,4 +1,4 @@
-# Container-Go
+# container-go
 
 ## Version
 
@@ -14,10 +14,10 @@ Here include these containers
 
 |Type|How to import|Propoties|
 |-|-|-|
-|Stack|"github.com/Alonza0314/Container-Go/Stack"|Last In, First Out|
-|Queue|"github.com/Alonza0314/Container-Go/Queue"|First In, First Out|
-|Heap|"github.com/Alonza0314/Container-Go/Heap"|Priority Queue|
-|Set|"github.com/Alonza0314/Container-Go/Set"|Unique Element|
+|Stack|"github.com/Alonza0314/container-go/stack"|Last In, First Out|
+|Queue|"github.com/Alonza0314/container-go/queue"|First In, First Out|
+|Heap|"github.com/Alonza0314/container-go/heap"|Priority Queue|
+|Set|"github.com/Alonza0314/container-go/set"|Unique Element|
 
 ## Use Containers
 

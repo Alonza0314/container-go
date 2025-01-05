@@ -1,4 +1,4 @@
-package Stack
+package stack
 
 import "errors"
 
@@ -19,7 +19,7 @@ func (s *stack) IsEmpty() bool {
 
 func (s *stack) Top() (interface{}, error) {
 	if s.IsEmpty() {
-		return nil, errors.New("Stack is empty.")
+		return nil, errors.New("stack is empty")
 	}
 	return (*s)[s.Len()-1], nil
 }
@@ -30,7 +30,7 @@ func (s *stack) Push(item interface{}) {
 
 func (s *stack) Pop() (interface{}, error) {
 	if s.IsEmpty() {
-		return nil, errors.New("Stack is empty.")
+		return nil, errors.New("stack is empty")
 	}
 	top := (*s)[s.Len() - 1]
 	(*s) = (*s)[:s.Len() - 1]
