@@ -46,7 +46,7 @@ func TestQueue(t *testing.T) {
 
 	// test for popping on empty queue
 	_, err = q.Pop()
-	if err == nil || err.Error() != "Queue is empty." {
-		t.Errorf("Expected 'Queue is empty.' error, got %v", err)
+	if err == nil || err.Error() != "queue is empty" {
+		t.Errorf("Expected 'queue is empty' error, got %v", err)
 	}
 }

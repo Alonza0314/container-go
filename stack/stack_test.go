@@ -49,8 +49,8 @@ func TestStack(t *testing.T) {
 
 	// test for popping one item from empty stack
 	_, err = stack.Pop()
-	if err == nil || err.Error() != "Stack is empty." {
-		t.Errorf("Expected error 'Stack is empty.', but got %v", err)
+	if err == nil || err.Error() != "stack is empty" {
+		t.Errorf("Expected error 'stack is empty', but got %v", err)
 	}
 
 	// test for getting the top item from empty stack
